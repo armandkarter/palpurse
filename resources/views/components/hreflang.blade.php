@@ -1,5 +1,5 @@
 @php
-$availableLocales = ['en','fr','el','de','it','nl','sl','sk', 'fi', 'sv', 'no', 'ru', 'lv', 'lt', 'et']; // Ajouter les langues disponibles ici
+$availableLocales = ['en','fr','el','de','it','cs','nl','sl','sk', 'fi', 'sv', 'no', 'ru', 'lv', 'lt', 'et']; // Ajouter les langues disponibles ici
 $currentPath = request()->path();
 
 // Supprime la langue déjà dans l'URL

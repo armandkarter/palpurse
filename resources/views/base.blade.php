@@ -195,8 +195,8 @@
                             <ul>
                                 <li><span class="icon fa fa-map-marker-alt"></span><span
                                         class="text">{{ __('messages.header.address') }}</span></li>
-                                <li><a href="https://wa.me/31637514146"><span
-                                            class="icon fa fa-phone"></span>{{ __('messages.header.phone') }}</a></li>
+                                <li><a href="https://wa.me/34603997701"><span
+                                            class="icon fa fa-phone"></span>+34603997701</a></li>
                                 <li>
                                     <a href="mailto:{{ __('messages.email.admin') }}"><span
                                             class="icon fa fa-envelope"></span>{{ __('messages.email.admin') }}</a><br>
@@ -228,7 +228,7 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Mail_%28iOS%29.svg" alt="Mail" />
     </a>
 
-    <a href="https://wa.me/31637514146" target="_blank" class="whatsapp-float">
+    <a href="https://wa.me/34603997701" target="_blank" class="whatsapp-float">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
     </a>
 

@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Session;
 
 // 🔹 Redirection par défaut selon la langue en session
 Route::get('/', function () {
-    $lang = Session::get('locale', 'fr'); // Langue par défaut : français
+    $lang = Session::get('locale', 'en'); // Langue par défaut
     return redirect($lang);
 });
 
@@ -25,7 +25,7 @@ Route::group([
     'prefix' => '{locale}',
     'where' => [
         // Liste complète des langues supportées
-        'locale' => 'en|fr|es|de|it|pt|nl|lt|sl|sk|fi|sv|el|et|lv|no'
+        'locale' => 'en|fr|es|de|it|pt|nl|lt|sl|sk|fi|sv|el|et|cs|lv|no'
     ],
     'middleware' => ['web', \App\Http\Middleware\DetectUserLanguage::class],
 ], function () {
@@ -46,7 +46,7 @@ Route::group([
 
 // 🔹 Changement de langue
 Route::get('/change-language/{lang}', function ($lang) {
-    $supported = ['en', 'fr', 'es', 'de', 'it', 'pt', 'nl', 'lt', 'sl', 'sk', 'fi', 'sv', 'el', 'et', 'lv', 'no'];
+    $supported = ['en', 'fr', 'es', 'de', 'it', 'pt', 'nl', 'lt', 'sl', 'sk', 'fi', 'sv', 'el', 'et', 'lv', "cs", 'no'];
 
     if (in_array($lang, $supported)) {
         Session::put('locale', $lang);
