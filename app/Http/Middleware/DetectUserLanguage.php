@@ -11,7 +11,7 @@ class DetectUserLanguage
 {
     public function handle(Request $request, Closure $next)
     {
-        $supportedLangs = ['en', 'fr', 'el', 'de', 'it', 'sl', "sk", "nl", "sv", "no", "ru", "lv", "lt", "cs" "et"];
+        $supportedLangs = ['en', 'fr', 'el', 'de', 'it', 'sl', "sk", "nl", "sv", "no", "ru", "lv", "lt", "cs", "et"];
         $defaultLang = 'en';
         $lang = null;
 
