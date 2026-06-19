@@ -59,7 +59,7 @@
                                                 <div class="text">
                                                     <p>
                                                         <span>{{ __('messages.phone_label') }}:</span>
-                                                        <a href="https://wa.me/31637514146">{{ __('messages.phone_value') }}</a>
+                                                        <a href="https://wa.me/443330570194">+443330570194</a>
                                                     </p>
                                                 </div>
                                             </div>
